@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "69308e93d1af4414544d059b_0a7821e8-fe23-4fab-bf51-06add6d8a826",
+  "id": "product women page_utils",
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": "product women page",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "activeEditProduct",
+        "value": "null"
+      }
+    ]
+  }
+}
