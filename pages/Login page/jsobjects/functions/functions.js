@@ -7,15 +7,15 @@ export default {
 	},
 
 	generatePasswordHash: async () => {
-		return "dcodeIO".bcrypt.hashSync(inp_registerPassword.text, 10);
+		return dcodeIO.bcrypt.hashSync(inp_registerPassword.text, 10);
 	},
 
 	verifyHash: async (password, hash) => {
-		return "dcodeIO".bcrypt.compareSync(password, hash)
+		return dcodeIO.bcrypt.compareSync(password, hash)
 	},
 
 	createToken: async (user) => {
-		return "jsonwebtoken".sign(user, 'secret', {expiresIn: 60*60});
+		return jsonwebtoken.sign(user, 'secret', {expiresIn: 60*60});
 	},
 
 	signIn: async () => {
