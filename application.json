@@ -26,6 +26,10 @@
     {
       "id": "Women & Men page",
       "isDefault": false
+    },
+    {
+      "id": "Order form",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
