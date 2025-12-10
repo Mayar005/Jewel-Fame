@@ -1,7 +1,7 @@
 {
   "appIsExample": false,
   "appLayout": {
-    "type": "DESKTOP"
+    "type": "TABLET"
   },
   "applicationDetail": {
     "appPositioning": {
@@ -30,10 +30,18 @@
     {
       "id": "Order form",
       "isDefault": false
+    },
+    {
+      "id": "Dashboard",
+      "isDefault": false
+    },
+    {
+      "id": "Product data",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
-    "type": "DESKTOP"
+    "type": "TABLET"
   },
   "unpublishedApplicationDetail": {
     "appPositioning": {

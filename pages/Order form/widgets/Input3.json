@@ -2,21 +2,19 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "autoFocus": false,
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderRadius": "1.5rem",
   "bottomRow": 37,
   "boxShadow": "none",
   "defaultText": "",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
-    },
-    {
-      "key": "borderRadius"
     }
   ],
   "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
   "iconAlign": "left",
+  "iconName": "ip-address",
   "inputType": "TEXT",
   "isDisabled": false,
   "isLoading": false,
@@ -27,7 +25,8 @@
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelStyle": "",
-  "labelTextSize": "0.875rem",
+  "labelTextColor": "#3f3f46",
+  "labelTextSize": "1rem",
   "labelWidth": 5,
   "leftColumn": 1,
   "maxDynamicHeight": 9000,
